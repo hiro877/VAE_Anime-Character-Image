@@ -8,6 +8,7 @@ import json
 from PIL import Image
 from tqdm import tqdm
 import matplotlib.pyplot as plt
+import os
 
 import torch
 import torch.nn as nn
@@ -289,6 +290,12 @@ if __name__ == '__main__':
     size = 90
     mean = (0.485, 0.456, 0.406)
     std = (0.229, 0.224, 0.225)
+
+    OUTPUT_DIR="output"
+    if not os.path.exists(OUTPUT_DIR):
+        # ディレクトリが存在しない場合、ディレクトリを作成する
+        os.makedirs(OUTPUT_DIR)
+
 
     # Datasetを作成
     train_dataset = PriconeCharaDataset(file_list=train_list, 
