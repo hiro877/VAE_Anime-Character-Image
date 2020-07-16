@@ -1,11 +1,16 @@
-＃VAE_Anime-Character-Image
+# VAE_Anime-Character-Image
 
 実験結果はBLOGに記載しています。
-■RGB
+## ■RGB
+
 https://www.hiro877.com/entry/vae-color-result
-■Gray
+
+## ■Gray
+
 https://www.hiro877.com/entry/vae-gray-result
-■VAEの調査内容まとめ
+
+## ■VAEの調査内容まとめ
+
 https://www.hiro877.com/entry/vae-research
 
 ![color1](https://user-images.githubusercontent.com/65473130/87611407-f6c38880-c742-11ea-849f-40ae85946c27.png)
